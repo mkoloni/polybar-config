@@ -1,0 +1,8 @@
+#!/bin/bash
+
+notify-send -u normal "Updating"
+
+kitty -e doas xbps-install -Su
+
+
+mpv --no-video ~/.config/sounds/ding.mp3

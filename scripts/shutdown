@@ -1,0 +1,10 @@
+#!/bin/bash
+
+notify-send -u critical "   Shutting down    ";
+
+sleep 1;
+
+mpv --no-video ~/.config/sounds/ding.mp3
+
+sudo halt;
+

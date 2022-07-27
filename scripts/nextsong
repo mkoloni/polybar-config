@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sleep 0.5
+
+mpc next
+
+notify-send -u normal "Music Next"
+
+mpv --no-video ~/.config/sounds/ding.mp3

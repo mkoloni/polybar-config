@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sleep 0.5
+
+mpc prev
+
+notify-send -u normal "Music Prev"
